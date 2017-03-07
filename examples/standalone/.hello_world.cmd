@@ -1,0 +1,1 @@
+cmd_examples/standalone/hello_world := arm-fsl-linux-gnueabi-ld.bfd   -g -Ttext 0xc100000 -o examples/standalone/hello_world -e hello_world examples/standalone/hello_world.o examples/standalone/libstubs.o -L /opt/toolchain/gcc-4.6.2/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/armv7-a/default -lgcc

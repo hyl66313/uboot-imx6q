@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FACTOR0	imx_thermal.c	25;"	d	file:
+FACTOR1	imx_thermal.c	26;"	d	file:
+FACTOR2	imx_thermal.c	27;"	d	file:
+MEASURE_FREQ	imx_thermal.c	128;"	d	file:
+MEASURE_FREQ	imx_thermal.c	29;"	d	file:
+MISC0_REFTOP_SELBIASOFF	imx_thermal.c	36;"	d	file:
+OFFSET	imx_thermal.c	28;"	d	file:
+TEMPERATURE_HOT	imx_thermal.c	126;"	d	file:
+TEMPERATURE_HOT	imx_thermal.c	23;"	d	file:
+TEMPERATURE_MAX	imx_thermal.c	127;"	d	file:
+TEMPERATURE_MAX	imx_thermal.c	24;"	d	file:
+TEMPERATURE_MIN	imx_thermal.c	125;"	d	file:
+TEMPERATURE_MIN	imx_thermal.c	22;"	d	file:
+TEMPSENSE0_FINISHED	imx_thermal.c	33;"	d	file:
+TEMPSENSE0_MEASURE_TEMP	imx_thermal.c	34;"	d	file:
+TEMPSENSE0_POWER_DOWN	imx_thermal.c	35;"	d	file:
+TEMPSENSE0_TEMP_CNT_MASK	imx_thermal.c	32;"	d	file:
+TEMPSENSE0_TEMP_CNT_SHIFT	imx_thermal.c	31;"	d	file:
+TEMPSENSE1_MEASURE_FREQ	imx_thermal.c	37;"	d	file:
+imx_thermal	imx_thermal.c	/^U_BOOT_DRIVER(imx_thermal) = {$/;"	v
+imx_thermal_get_temp	imx_thermal.c	/^int imx_thermal_get_temp(struct udevice *dev, int *temp)$/;"	f	signature:(struct udevice *dev, int *temp)
+imx_thermal_ops	imx_thermal.c	/^static const struct dm_thermal_ops imx_thermal_ops = {$/;"	v	typeref:struct:dm_thermal_ops	file:
+imx_thermal_probe	imx_thermal.c	/^static int imx_thermal_probe(struct udevice *dev)$/;"	f	file:	signature:(struct udevice *dev)
+read_cpu_temperature	imx_thermal.c	/^static int read_cpu_temperature(struct udevice *dev)$/;"	f	file:	signature:(struct udevice *dev)
+thermal	thermal-uclass.c	/^UCLASS_DRIVER(thermal) = {$/;"	v
+thermal_get_temp	thermal-uclass.c	/^int thermal_get_temp(struct udevice *dev, int *temp)$/;"	f	signature:(struct udevice *dev, int *temp)
