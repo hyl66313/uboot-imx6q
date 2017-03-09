@@ -947,8 +947,6 @@ main:
 	.ascii	"index\000"
 .LASF35:
 	.ascii	"bd_info\000"
-.LASF57:
-	.ascii	"/opt/sacWork/PMU/uboot\000"
 .LASF4:
 	.ascii	"short int\000"
 .LASF56:
@@ -959,6 +957,8 @@ main:
 	.ascii	"NETLOOP_CONTINUE\000"
 .LASF10:
 	.ascii	"long int\000"
+.LASF57:
+	.ascii	"/opt/sacWork/PMU/uboot-imx6q\000"
 .LASF58:
 	.ascii	"net_loop_state\000"
 .LASF3:
