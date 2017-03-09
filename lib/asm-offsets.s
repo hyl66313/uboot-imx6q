@@ -950,6 +950,8 @@ main:
 	.ascii	"bi_ddr_freq\000"
 .LASF23:
 	.ascii	"bi_dsp_freq\000"
+.LASF57:
+	.ascii	"/opt/sacWork/PMU/uboot-imx6q\000"
 .LASF15:
 	.ascii	"bi_memstart\000"
 .LASF59:
@@ -986,8 +988,6 @@ main:
 	.ascii	"index\000"
 .LASF35:
 	.ascii	"bd_info\000"
-.LASF57:
-	.ascii	"/opt/sacWork/PMU/uboot\000"
 .LASF4:
 	.ascii	"short int\000"
 .LASF21:
